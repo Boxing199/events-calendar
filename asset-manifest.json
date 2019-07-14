@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/events-calendar/static/css/main.e8ebd58a.chunk.css",
+    "main.js": "/events-calendar/static/js/main.c4441f52.chunk.js",
+    "main.js.map": "/events-calendar/static/js/main.c4441f52.chunk.js.map",
+    "runtime~main.js": "/events-calendar/static/js/runtime~main.89887397.js",
+    "runtime~main.js.map": "/events-calendar/static/js/runtime~main.89887397.js.map",
+    "static/js/2.5ffe231e.chunk.js": "/events-calendar/static/js/2.5ffe231e.chunk.js",
+    "static/js/2.5ffe231e.chunk.js.map": "/events-calendar/static/js/2.5ffe231e.chunk.js.map",
+    "index.html": "/events-calendar/index.html",
+    "precache-manifest.2da97bfa91e7e3d8504d4ffef0b2b18c.js": "/events-calendar/precache-manifest.2da97bfa91e7e3d8504d4ffef0b2b18c.js",
+    "service-worker.js": "/events-calendar/service-worker.js",
+    "static/css/main.e8ebd58a.chunk.css.map": "/events-calendar/static/css/main.e8ebd58a.chunk.css.map"
+  }
+}
