@@ -41,10 +41,10 @@ class Calendar extends React.Component {
         {currentMonthDays.map((monthDay, index) => (
           <div 
             key={index}
-            className={(monthDay.getDate() === today.getDate()) ? 'day currentDay' : 'day'}
+            className={(monthDay.getDate() === today.getDate() && monthDay.getMonth() === today.getMonth()) ? 'day currentDay' : 'day'}
           >
             <span 
-              className={(monthDay.getDate() === today.getDate()) ? 'date currentDate' : 'date'}
+              className={(monthDay.getDate() === today.getDate() && monthDay.getMonth() === today.getMonth()) ? 'date currentDate' : 'date'}
             >
               {monthDay.getDate()}
             </span>
