@@ -4,6 +4,7 @@ import {
   getNextMonth,
   getPrevMonth,
   getThisMonth,
+  openWindow,
 } from '../actions/index';
 
 const mapStateToProps = state => ({
@@ -15,6 +16,7 @@ const mapDispatchToProps = {
   getNextMonth,
   getPrevMonth,
   getThisMonth,
+  openWindow,
 };
 export const CalendarContainer = connect(
   mapStateToProps,

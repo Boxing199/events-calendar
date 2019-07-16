@@ -1,6 +1,7 @@
 import React from 'react';
 import CalendarContainer from './containers/CalendarContainer';
-import CalendarNavContainer from './containers/CalendarNavContainer'
+import CalendarNavContainer from './containers/CalendarNavContainer';
+import CalendarEventContainer from './containers/CalendarEventContainer';
 
 class App extends React.Component {
   render() {
@@ -13,10 +14,11 @@ class App extends React.Component {
             <div className="inner">
               <h2 className="title">{today}</h2>
               <CalendarNavContainer />
-              <p className="subtitle">{months[this.props.currentMonth]}</p>
+              <p className="subtitle">{(this.props.today.getFullYear() === this.props.currentYear) ? months[this.props.currentMonth] : months[this.props.currentMonth] + ' ' + this.props.currentYear}</p>
               <CalendarContainer />
             </div>
           </div>
+          <CalendarEventContainer />
         </main>  
       </div>
     );

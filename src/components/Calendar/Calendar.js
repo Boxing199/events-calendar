@@ -45,6 +45,7 @@ class Calendar extends React.Component {
           >
             <span 
               className={(monthDay.getDate() === today.getDate() && monthDay.getMonth() === today.getMonth() && monthDay.getFullYear() === today.getFullYear()) ? 'date currentDate' : 'date'}
+              onClick={()=>this.props.openWindow()}
             >
               {monthDay.getDate()}
             </span>

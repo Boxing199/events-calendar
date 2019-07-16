@@ -11,3 +11,11 @@ export const getPrevMonth = () => ({
 export const getThisMonth = () => ({
     type: type.THIS_MONTH,
 });
+
+export const openWindow = () => ({
+    type: type.OPEN_WINDOW,
+});
+
+export const closeWindow = () => ({
+    type: type.CLOSE_WINDOW,
+});
