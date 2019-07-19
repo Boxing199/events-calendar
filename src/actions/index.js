@@ -19,3 +19,13 @@ export const openWindow = () => ({
 export const closeWindow = () => ({
     type: type.CLOSE_WINDOW,
 });
+
+export const getSelectedDay = (monthDay) => ({
+    type: type.SELECTED_DAY,
+    monthDay,
+});
+
+export const saveEvent = (eventDesc) => ({
+    type: type.SAVE_EVENT,
+    eventDesc,
+})
