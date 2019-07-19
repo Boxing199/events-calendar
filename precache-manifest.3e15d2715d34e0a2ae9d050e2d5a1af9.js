@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c49261188fd19345bcdfabe07961b27c",
+    "revision": "845ba5a033ffb4875c2429941b4d144f",
     "url": "/events-calendar/index.html"
   },
   {
-    "revision": "8a2b303e25184ea16174",
+    "revision": "aad703c75b24acdc2634",
     "url": "/events-calendar/static/css/main.0eac8bb4.chunk.css"
   },
   {
-    "revision": "d4509360c84e8ac67175",
-    "url": "/events-calendar/static/js/2.32fc9512.chunk.js"
+    "revision": "9922444bc44fcaa1d389",
+    "url": "/events-calendar/static/js/2.1b5e08b6.chunk.js"
   },
   {
-    "revision": "8a2b303e25184ea16174",
-    "url": "/events-calendar/static/js/main.9d4bedfd.chunk.js"
+    "revision": "aad703c75b24acdc2634",
+    "url": "/events-calendar/static/js/main.62811f9c.chunk.js"
   },
   {
     "revision": "e0f2172b52f3aa06cc40",
