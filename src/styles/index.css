@@ -86,14 +86,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 0;
-}
-
-.currentDay {
-    padding: 0;
 }
 
 .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 60px;
+    position: relative;
     cursor: pointer;
 }
 
@@ -104,11 +105,6 @@ main {
 }
 
 .currentDate {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 64px;
-    height: 60px;
     background: #ffd700;
     border-radius: 10px;
     font-weight: 700;
@@ -117,6 +113,20 @@ main {
 .currentDate:hover {
     color: #fff;
     transition: .8s;
+}
+
+.event-marker {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 8px;
+    height: 8px;
+    background: #ffd700;
+    border-radius: 50%;
+}
+
+.currentDate .event-marker {
+    background: #302b63;
 }
 
          /* calendar event */
@@ -217,9 +227,12 @@ main {
         font-size: 24px;
     }
 
-    .currentDate {
+    .date {
         width: 47px;
         height: 44px;
+    }
+
+    .currentDate {
         border-radius: 5px;
     }
 
@@ -239,7 +252,10 @@ main {
     .calendar-event-list {
         max-height: 150px;
         padding: 10px 25px;
-        ;
+    }
+    .event-marker {
+        width: 5px;
+        height: 5px;
     }
 }
 @media (max-width: 580px) {
@@ -276,16 +292,14 @@ main {
         padding-bottom: 15px;
     }
 
-    .day {
-        padding: 10px 0;
-    }
-
-    .currentDay {
-        padding: 0;
-    }
-    .currentDate {
+    .date {
         width: 35px;
         height: 33px;
+    }
+
+    .event-marker {
+        width: 3px;
+        height: 3px;
     }
 }
 

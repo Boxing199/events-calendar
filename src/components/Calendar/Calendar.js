@@ -48,6 +48,7 @@ class Calendar extends React.Component {
               onClick={()=>(this.props.openWindow() && this.props.getSelectedDay(monthDay))}
             >
               {monthDay.getDate()}
+              {(this.props.events[monthDay.getFullYear()] && this.props.events[monthDay.getFullYear()][monthDay.getMonth()+1] && this.props.events[monthDay.getFullYear()][monthDay.getMonth()+1][monthDay.getDate()]) ? <div className="event-marker"></div> : null}   
             </span>
           </div>
         ))}

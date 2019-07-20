@@ -12,6 +12,7 @@ const mapStateToProps = state => ({
   today: state.today,
   currentMonth: state.currentMonth,
   currentYear: state.currentYear,
+  events: state.events,
 });
 const mapDispatchToProps = {
   getNextMonth,
