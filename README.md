@@ -1,6 +1,6 @@
 # SearchGit
 
-[EventsCalendar](https://boxing199.github.io/events-calendar/)
+[EventsCalendar](https://vvirk.github.io/events-calendar/)
 
 The simple web app to create events in the calendar.
 
