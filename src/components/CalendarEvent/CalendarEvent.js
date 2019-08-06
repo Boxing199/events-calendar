@@ -12,11 +12,11 @@ class CalendarEvent extends React.Component {
     const clearState = () => {
       this.setState({ eventDesc: ''})
     }
-    return (
+      return (
         <div 
           className={(this.props.eventWindow === "closed") ? 
           "calendar-event-wrap display-none" : "calendar-event-wrap"}
-          onClick={(event)=>this.props.closeWindow() && clearState()}  
+          onClick={()=>this.props.closeWindow() && clearState()}
         >
           <div className="calendar-event" onClick={(event) => event.stopPropagation()}> 
             <input 
@@ -24,7 +24,7 @@ class CalendarEvent extends React.Component {
               type="text" 
               placeholder="please enter an event description ..."
               value={this.state.eventDesc}
-              onChange={ e => this.setState({ eventDesc: e.target.value })} 
+              onChange={ e => this.setState({ eventDesc: e.target.value })}
             />
             <h2 className="subtitle calendar-event-subtitle"> Events list</h2>
             <ul className="calendar-event-list">

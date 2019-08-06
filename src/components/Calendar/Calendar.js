@@ -23,13 +23,13 @@ class Calendar extends React.Component {
     }
   return (
       <div id="calendar">
-        <div className="weekDay">пн</div>
-        <div className="weekDay">вт</div>
-        <div className="weekDay">ср</div>
-        <div className="weekDay">чт</div>
-        <div className="weekDay">пт</div>
-        <div className="weekDay">сб</div>
-        <div className="weekDay">вс</div>
+        <div className="weekDay">m</div>
+        <div className="weekDay">t</div>
+        <div className="weekDay">w</div>
+        <div className="weekDay">t</div>
+        <div className="weekDay">f</div>
+        <div className="weekDay">s</div>
+        <div className="weekDay">s</div>
         {emptyBlocks.map((block, index)=>(
           <div 
             className="empty" 

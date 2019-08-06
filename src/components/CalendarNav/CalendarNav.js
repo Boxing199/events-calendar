@@ -10,11 +10,11 @@ class CalendarNav extends React.Component {
         >
           &#9668; prev
         </button>
-        <button 
+        <button
           className="calendar-nav-btn" 
           onClick={()=>(this.props.getThisMonth())}
         >
-          &#8226; current month &#8226;
+          current month
         </button>
         <button 
           className="calendar-nav-btn" 
